@@ -1,0 +1,23 @@
+{
+    "base": {
+        "3kva": { "subscription": 9.69, "prix_kwh ": 0.1753 },
+        "6kva": { "subscription": 12.67, "prix_kwh": 0.1753 },
+        "9kva": { "subscription": 15.89, "prix_kwh": 0.1753 },
+        "12kva": { "subscription": 19.16, "prix_kwh": 0.1753 },
+        "15kva": { "subscription": 22.21, "prix_kwh": 0.1753 },
+        "18kva": { "subscription": 25.24, "prix_kwh": 0.1753 },
+        "24kva": { "subscription": 31.96, "prix_kwh": 0.1753 },
+        "30kva": { "subscription": 37.68, "prix_kwh": 0.1753 },
+        "36kva": { "subscription": 44.43, "prix_kwh": 0.1753 }
+    },
+    "hc": {
+        "6kva": { "subscription": 13.09, "prix_kwh_hp": 0.1876, "prix_kwh_hc": 0.1456 },
+        "9kva": { "subscription": 16.82, "prix_kwh_hp": 0.1876, "prix_kwh_hc": 0.1456 },
+        "12kva": { "subscription": 20.28, "prix_kwh_hp": 0.1876, "prix_kwh_hc": 0.1456 },
+        "15kva": { "subscription": 23.09, "prix_kwh_hp": 0.1876, "prix_kwh_hc": 0.1456 },
+        "18kva": { "subscription": 26.26, "prix_kwh_hp": 0.1876, "prix_kwh_hc": 0.1456 },
+        "24kva": { "subscription": 32.92, "prix_kwh_hp": 0.1876, "prix_kwh_hc": 0.1456 },
+        "30kva": { "subscription": 38.97, "prix_kwh_hp": 0.1876, "prix_kwh_hc": 0.1456 },
+        "36kva": { "subscription": 45.08, "prix_kwh_hp": 0.1876, "prix_kwh_hc": 0.1456 }
+    }
+}
