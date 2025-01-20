@@ -8,7 +8,7 @@ Format:
 ```json
 {
     "nom_option": {
-        "<puissance>": {"subscription": <prix_abonnement>, "prix_kwh<[plus de details]": <prix du kwh pour cette option, cette puissance>}
+        "<puissance>": {"abonnement_annuel": <prix_abonnement>, "prix_kwh<[plus de details]": <prix du kwh pour cette option, cette puissance>}
         ...
     }
 }
