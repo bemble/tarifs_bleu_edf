@@ -21,12 +21,12 @@
         "36kva": { "subscription": 45.08, "prix_kwh_hp": 0.2700, "prix_kwh_hc": 0.2068}
     },
     "tempo": {
-        "6kva": { "subscription": 13.03, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_rouge_hp": 0.7562 },
-        "9kva": { "subscription": 16.25, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_rouge_hp": 0.7562 },
-        "12kva": { "subscription": 19.56, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_rouge_hp": 0.7562 },
-        "15kva": { "subscription": 22.45, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_rouge_hp": 0.7562 },
-        "18kva": { "subscription": 25.60, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_rouge_hp": 0.7562 },
-        "30kva": { "subscription": 38.53, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_rouge_hp": 0.7562 },
-        "36kva": { "subscription": 44.71, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_rouge_hp": 0.7562 }
+        "6kva": { "subscription": 13.03, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_hp_rouge": 0.7562 },
+        "9kva": { "subscription": 16.25, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_hp_rouge": 0.7562 },
+        "12kva": { "subscription": 19.56, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_hp_rouge": 0.7562 },
+        "15kva": { "subscription": 22.45, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_hp_rouge": 0.7562 },
+        "18kva": { "subscription": 25.60, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_hp_rouge": 0.7562 },
+        "30kva": { "subscription": 38.53, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_hp_rouge": 0.7562 },
+        "36kva": { "subscription": 44.71, "prix_kwh_hc_bleu": 0.1296, "prix_kwh_hp_bleu": 0.1609, "prix_kwh_hc_blanc": 0.1486, "prix_kwh_hp_blanc": 0.1894, "prix_kwh_hc_rouge": 0.1568, "prix_kwh_hp_rouge": 0.7562 }
     }
 }
