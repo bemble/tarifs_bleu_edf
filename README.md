@@ -25,3 +25,41 @@ Dernière mise à jour: 20 janvier 2025
 Tarif Zen Fixe EDF pour les particuliers, [grille tarifaire](https://particulier.edf.fr/content/dam/2-Actifs/Documents/Offres/Grille-prix-zen-fixe.pdf).
 
 Dernière mise à jour: 20 janvier 2025 
+
+## Utilisation
+
+### Home Assistant
+
+Il suffit de configurer l'intégration Restful. Par exemple, pour les tarifs tempo, dans le fichier `configuration.yaml`:
+
+```yaml
+rest:
+  - resource: https://raw.githubusercontent.com/bemble/tarifs_bleu_edf/main/edf_bleu.json
+    method: GET
+    scan_interval: 40000
+    sensor:
+      - unique_id: tarif_kwh_hc_bleu
+        name: Tarif Tempo Bleu Heures creuses
+        value_template: "{{value_json.tempo['6kva'].prix_kwh_hc_bleu}}"
+        unit_of_measurement: EUR/kWh
+      - unique_id: tarif_kwh_hp_bleu
+        name: Tarif Tempo Bleu Heures pleines
+        value_template: "{{value_json.tempo['6kva'].prix_kwh_hp_bleu}}"
+        unit_of_measurement: EUR/kWh
+      - unique_id: tarif_kwh_hc_blanc
+        name: Tarif Tempo Blanc Heures creuses
+        value_template: "{{value_json.tempo['6kva'].prix_kwh_hc_blanc}}"
+        unit_of_measurement: EUR/kWh
+      - unique_id: tarif_kwh_hp_blanc
+        name: Tarif Tempo Blanc Heures pleines
+        value_template: "{{value_json.tempo['6kva'].prix_kwh_hp_blanc}}"
+        unit_of_measurement: EUR/kWh
+      - unique_id: tarif_kwh_hc_rouge
+        name: Tarif Tempo Rouge Heures creuses
+        value_template: "{{value_json.tempo['6kva'].prix_kwh_hc_rouge}}"
+        unit_of_measurement: EUR/kWh
+      - unique_id: tarif_kwh_hp_rouge
+        name: Tarif Tempo Rouge Heures pleines
+        value_template: "{{value_json.tempo['6kva'].prix_kwh_hp_rouge}}"
+        unit_of_measurement: EUR/kWh
+```
