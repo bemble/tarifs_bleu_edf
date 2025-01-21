@@ -18,11 +18,11 @@ Format:
 
 Tarif Bleu EDF pour les particuliers, [grille tarifaire](https://particulier.edf.fr/content/dam/2-Actifs/Documents/Offres/Grille_prix_Tarif_Bleu.pdf).
 
-Dernière mise à jour: 20 janvier 2025
+Dernière mise à jour: 1 février 2025
 
-## edf_zen_fixe.json
+## edf_zen_fixe_2025.json
 
-Tarif Zen Fixe EDF pour les particuliers, [grille tarifaire](https://particulier.edf.fr/content/dam/2-Actifs/Documents/Offres/Grille-prix-zen-fixe.pdf).
+Tarif Zen Fixe 2025 EDF pour les particuliers, [grille tarifaire](https://particulier.edf.fr/content/dam/2-Actifs/Documents/Offres/Grille-prix-zen-fixe.pdf).
 
 Dernière mise à jour: 20 janvier 2025 
 
